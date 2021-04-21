@@ -1,4 +1,36 @@
+# Google clone with nextjs and tailwind css
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Summary
+google clone is created with react nextjs and tailwind css.
+
+The purpose of the project is getting famailiar with nextjs and tailwind.
+
+
+
+## Installed dependencies
+npx create-next-app
+
+npm @heroicons/react
+
+## remarks
+need to add domain to **next.config.js** to get image from url
+```
+module.exports = {
+  images: {
+    domains: ["www.google.com", "www.pngall.com"],
+  },
+};
+
+```
+
+**Tailwind**
+
+https://tailwindcss.com/
+
+by default, it is setup for mobile, and you can you sm: md: lg: for larger responsive or web.
+
 
 ## Getting Started
 
