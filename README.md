@@ -25,6 +25,10 @@ module.exports = {
 
 ```
 
+**Tailwind**
+https://tailwindcss.com/
+by default, it is setup for mobile, and you can you sm: md: lg: for larger responsive or web.
+
 
 ## Getting Started
 
