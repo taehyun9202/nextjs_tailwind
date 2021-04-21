@@ -8,11 +8,11 @@ google clone is created with react nextjs and tailwind css.
 The purpose of the project is getting famailiar with nextjs and tailwind.
 
 
-
 ## Installed dependencies
 npx create-next-app
 
 npm @heroicons/react
+
 
 ## remarks
 need to add domain to **next.config.js** to get image from url
@@ -40,6 +40,14 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+```
+
+get api key and update in keys.js from following websites
+```
+// api key - https://developers.google.com/custom-search/v1/using_rest
+export const API_KEY = process.env.REACT_APP_API_KEY;
+// context key - https://cse.google.com/cse/create/new
+export const CONTEXT_KEY = process.env.REACT_APP_CONTEXT_KEY;
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
