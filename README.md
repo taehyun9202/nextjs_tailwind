@@ -13,10 +13,34 @@ npx create-next-app
 
 npm @heroicons/react
 
+**install tailwind**
+
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+**create config file**
+
+npx tailwindcss init -p
+
+**for tailwind line clamp**
+
+npm install @tailwindcss/line-clamp
+
+```
+// tailwind.config.js
+module.exports = {
+  // ...
+  plugins: [
+    // ...
+    require('@tailwindcss/line-clamp'),
+  ],
+}
+
+```
 
 ## remarks
 need to add domain to **next.config.js** to get image from url
 ```
+
 module.exports = {
   images: {
     domains: ["www.google.com", "www.pngall.com"],
